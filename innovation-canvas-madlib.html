@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Innovation Canvas Mad Lib</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: linear-gradient(to bottom right, #f0fdf4, #f0f9ff);
+      padding: 2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #1f2937;
+    }
+    .prompt {
+      margin-top: 2rem;
+    }
+    .prompt h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.25rem;
+    }
+    .prompt p {
+      font-size: 0.9rem;
+      color: #374151;
+    }
+    textarea, input[type="text"] {
+      width: 100%;
+      padding: 1rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+      border: 2px solid #d1d5db;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+    }
+    .multiselect {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    .multiselect label {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem;
+      background-color: #eff6ff;
+      border-radius: 0.5rem;
+    }
+    .multiselect input {
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Living Life as Art Innovation Canvas</h1>
+    <p>Mad Lib Style for Madison Parks & Recreation</p>
+
+    <div class="prompt">
+      <h3>Innovation Idea Title</h3>
+      <p>What will you call your innovation that turns ideas into opportunities for Madison Parks and Recreation?</p>
+      <input type="text" placeholder="e.g., Kinship Gardens: Building Community Through Stewardship" />
+    </div>
+
+    <div class="prompt">
+      <h3>Values Misalignment Challenge</h3>
+      <p>Where do you see a gap between our stated values and current reality in parks operations?</p>
+      <textarea rows="4" placeholder="e.g., We say we value diversity and inclusion..."></textarea>
+    </div>
+
+    <div class="prompt">
+      <h3>Core Values Integration</h3>
+      <p>Which organizational values will this innovation most strongly embody?</p>
+      <div class="multiselect">
+        <label><input type="checkbox" /> Safety</label>
+        <label><input type="checkbox" /> Community in the Workplace</label>
+        <label><input type="checkbox" /> Diversity</label>
+        <label><input type="checkbox" /> Innovation and Creativity</label>
+        <label><input type="checkbox" /> Continuous Learning</label>
+        <label><input type="checkbox" /> Conscious Evolution</label>
+        <label><input type="checkbox" /> Inclusion and Collaboration</label>
+        <label><input type="checkbox" /> Stewardship</label>
+        <label><input type="checkbox" /> Leadership</label>
+        <label><input type="checkbox" /> Customer and Community Service</label>
+        <label><input type="checkbox" /> Compassion</label>
+        <label><input type="checkbox" /> Professionalism</label>
+      </div>
+    </div>
+
+    <div class="prompt">
+      <h3>Cultural Transformation Outcomes</h3>
+      <textarea rows="4" placeholder="e.g., Staff will develop stronger cultural competency..."></textarea>
+    </div>
+
+    <div class="prompt">
+      <h3>Stakeholder Partnership</h3>
+      <input type="text" placeholder="e.g., Bilingual families seeking culturally relevant programming..." />
+    </div>
+
+    <div class="prompt">
+      <h3>Resource Commitment & Integration</h3>
+      <textarea rows="4" placeholder="e.g., Monthly cultural competency workshops, dedicated multicultural space..."></textarea>
+    </div>
+
+    <div class="prompt">
+      <h3>Systemic Barriers & Power Dynamics</h3>
+      <textarea rows="4" placeholder="e.g., Long-standing staff may resist changing programming..."></textarea>
+    </div>
+
+    <div class="prompt">
+      <h3>Conscious Evolution Action</h3>
+      <input type="text" placeholder="e.g., Conduct values audit of current programming..." />
+    </div>
+
+    <div class="prompt">
+      <h3>Values Accountability Metrics</h3>
+      <textarea rows="4" placeholder="e.g., Percentage of budget allocated to diverse partnerships..."></textarea>
+    </div>
+
+    <p><strong>Reminder:</strong> When an organizational concern is elevated to an "organizational value," it is evident in all activities—policy, budget, human resources, and program decisions.</p>
+  </div>
+</body>
+</html>
